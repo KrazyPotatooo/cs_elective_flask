@@ -13,7 +13,8 @@
 
 
 
-            <h2>Student List <button type="button" class="btn btn-success  pull-right" data-toggle="modal" data-target="#myModal">Add Student</button></h2>
+         <h2 style="font-weight: bold;">Student List <button type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#myModal">Add Student</button></h2>
+
 
 
             <!DOCTYPE html>
@@ -22,15 +23,16 @@
                 <!-- Your head content -->
             </head>
             <body>
-                <form action="/" method="POST">
+                <form action="/" method="POST">xs
                     <input type="text" name="search" placeholder="Search by Name">
-                    <button type="submit">Search</button>
+                    <button type="submit" class="btn btn-success">Search</button>
                 </form>
                 <table>
                     <!-- Table to display students' data -->
                 </table>
             </body>
             </html>
+            
 
     {%with messages = get_flashed_messages()%}
 
@@ -84,8 +86,9 @@
                     <td>
 
 
-               <a href="/update/{{row.0}}" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit{{row.0}}">Edit</a>
-                <a href="/delete/{{ row.0 }}" class="btn btn-danger btn-xs" onclick="return confirm('Are You Sure For Delete?')">Delete</a>
+                     <a href="/update/{{row.0}}" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modaledit{{row.0}}">Edit</a>
+                     <a href="/delete/{{ row.0 }}" class="btn btn-danger btn-xs" onclick="return confirm('Are You Sure For Delete?')">Delete</a>
+                     
 
                     </td>
 
