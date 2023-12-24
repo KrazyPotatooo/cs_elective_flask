@@ -1,4 +1,12 @@
 Final Exam Drill. CSE1
+
+CRUD(Create, Read, Update, Delete) operations for all the table in the database,
+Tests all the python file,
+Created a python file on every table,
+Added a simple search functionality,
+Using Postman to CREATE(POST),READ(GET),UPDATE(PUT),DELETE(DELETE),
+I used the JSON format
+
 Activity: Building a CRUD REST API with MySQL, Testing, and XML/JSON Output
 In this hands-on activity, you will be creating a CRUD (Create, Read, Update, Delete) REST API for your chosen MySQL database (from
 our recent activity). The API will allow users to interact with the database and will act as an Interface to any  client that understands
